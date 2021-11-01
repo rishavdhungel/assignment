@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+  <title>KUSOM Student Registration Form</title>
+</head>
+<body>
+  <form name="regform" method="post" action="#" onsubmit="return validateemail();">
+    <div class="container">  
+
+     <center><h1>KUSOM Student Registration Form</h1></center>
+    <hr>
+
+    <!--General Information-->
+
+    <h2>General Information</h2>
+    <label>Firstname</label>
+    <input type="text" name="firstname" placeholder="firstname" required/>
+    <label>Lastname</label>
+    <input type="text" name="lastname" placeholder="lastname" required/>
+    <label>Middlename</label>
+    <input type="text" name="middlename" placeholder="middlename" required/>
+    <br>
+ <!--Gender-->
+      <label>   
+        Gender :  
+        </label> 
+        <input type="radio" value="Male" name="gender" > Male   
+        <input type="radio" value="Female" name="gender"> Female   
+        <input type="radio" value="Other" name="gender"> Other  
+    <br><br><br>
+<!--Gender End-->  
+
+<!----- Date Of Birth Start----------->
+<tr>
+  <td>Date of Birth</td>
+   
+  <td>
+  <select name="Birthday_day" id="Birthday_Day" required>
+  <option value="-1">Day:</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+   
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+  <option value="11">11</option>
+  <option value="12">12</option>
+   
+  <option value="13">13</option>
+  <option value="14">14</option>
+  <option value="15">15</option>
+  <option value="16">16</option>
+  <option value="17">17</option>
+  <option value="18">18</option>
+  <option value="19">19</option>
+  <option value="20">20</option>
+  <option value="21">21</option>
+   
+  <option value="22">22</option>
+  <option value="23">23</option>
+  <option value="24">24</option>
+  <option value="25">25</option>
+  <option value="26">26</option>
+  <option value="27">27</option>
+  <option value="28">28</option>
+  <option value="29">29</option>
+  <option value="30">30</option>
+   
+  <option value="31">31</option>
+  </select>
+   
+  <select id="Birthday_Month" name="Birthday_Month" required>
+  <option value="-1">Month:</option>
+  <option value="January">Jan</option>
+  <option value="February">Feb</option>
+  <option value="March">Mar</option>
+  <option value="April">Apr</option>
+  <option value="May">May</option>
+  <option value="June">Jun</option>
+  <option value="July">Jul</option>
+  <option value="August">Aug</option>
+  <option value="September">Sep</option>
+  <option value="October">Oct</option>
+  <option value="November">Nov</option>
+  <option value="December">Dec</option>
+  </select>
+   
+  <select name="Birthday_Year" id="Birthday_Year" required>
+   
+  <option value="-1">Year:</option>
+  <option value="2012">2012</option>
+  <option value="2011">2011</option>
+  <option value="2010">2010</option>
+  <option value="2009">2009</option>
+  <option value="2008">2008</option>
+  <option value="2007">2007</option>
+  <option value="2006">2006</option>
+  <option value="2005">2005</option>
+  <option value="2004">2004</option>
+  <option value="2003">2003</option>
+  <option value="2002">2002</option>
+  <option value="2001">2001</option>
+  <option value="2000">2000</option>
+   
+  <option value="1999">1999</option>
+  <option value="1998">1998</option>
+  <option value="1997">1997</option>
+  <option value="1996">1996</option>
+  <option value="1995">1995</option>
+  <option value="1994">1994</option>
+  <option value="1993">1993</option>
+  <option value="1992">1992</option>
+  <option value="1991">1991</option>
+  <option value="1990">1990</option>
+   
+  <option value="1989">1989</option>
+  <option value="1988">1988</option>
+  <option value="1987">1987</option>
+  <option value="1986">1986</option>
+  <option value="1985">1985</option>
+  <option value="1984">1984</option>
+  <option value="1983">1983</option>
+  <option value="1982">1982</option>
+  <option value="1981">1981</option>
+  <option value="1980">1980</option>
+
+  <option value="1979">1979</option>
+  <option value="1978">1978</option>
+  <option value="1977">1977</option>
+  <option value="1976">1976</option>
+  <option value="1975">1975</option>
+  <option value="1974">1974</option>
+  <option value="1973">1973</option>
+  <option value="1972">1972</option>
+  <option value="1971">1971</option>
+  <option value="1970">1970</option>
+  </select>
+  </td>
+  </tr>
+  <br><br><br>
+
+  <!-----End  Date Of Birth ----------->
+
+
+  <!--Birth Place Start-->
+   <td>Birth Place</td>
+   <select class="birthplace" name="zone" required="required">
+    <option value="">--Select Zone--</option>
+    <option value="Bagmati">Bagmati</option>
+    <option value="Bheri">Bheri</option>
+    <option value="Dhawalagiri">Dhawalagiri</option>
+    <option value="Gandaki">Gandaki</option>
+    <option value="Janakpur">Janakpur</option>
+    <option value="Karnali">Karnali</option>
+    <option value="Kosi">Kosi</option>
+    <option value="Lumbini">Lumbini</option>
+    <option value="Mahakali">Mahakali</option>
+    <option value="Mechi">Mechi</option>
+    <option value="Narayani">Narayani</option>
+    <option value="Rapti">Rapti</option>
+    <option value="Sagarmatha">Sagarmatha</option>
+    <option value="Seti">Seti</option>
+   </select>
+   <select class="birthplace" name="district" required="required">
+    %{--Mechi--}%
+    <option value="">--Select District--</option>
+    <option value="Taplejung">Taplejung</option>
+    <option value="Panchthar">Panchthar</option>
+    <option value="Ilam">Ilam</option>
+    <option value="Jhapa">Jhapa</option>
+    %{--Koshi--}%
+    <option value="Morang">Morang</option>
+    <option value="Sunsari">Sunsari</option>
+    <option value="Dhankutta">Dhankutta</option>
+    <option value="Sankhuwasabha">Sankhuwasabha</option>
+    <option value="Bhojpur">Bhojpur</option>
+    <option value="Terhathum">Terhathum</option>
+    %{--Sagarmatha--}%
+    <option value="Okhaldunga">Okhaldunga</option>
+    <option value="Khotang">Khotang</option>
+    <option value="Solukhumbu">Solukhumbu</option>
+    <option value="Udaypur">Udaypur</option>
+    <option value="Saptari">Saptari</option>
+    <option value="Siraha">Siraha</option>
+    %{--Janakpur--}%
+    <option value="Dhanusa">Dhanusa</option>
+    <option value="Mahottari">Mahottari</option>
+    <option value="Sarlahi">Sarlahi</option>
+    <option value="Sindhuli">Sindhuli</option>
+    <option value="Ramechhap">Ramechhap</option>
+    <option value="Dolkha">Dolkha</option>
+    %{--Bagmati--}%
+    <option value="Sindhupalchauk">Sindhupalchauk</option>
+    <option value="Kavreplanchauk">Kavreplanchauk</option>
+    <option value="Lalitpur">Lalitpur</option>
+    <option value="Bhaktapur">Bhaktapur</option>
+    <option value="Kathmandu">Kathmandu</option>
+    <option value="Nuwakot">Nuwakot</option>
+    <option value="Rasuwa">Rasuwa</option>
+    <option value="Dhading">Dhading</option>
+    %{--Narayani--}%
+    <option value="Makwanpur">Makwanpur</option>
+    <option value="Rauthat">Rauthat</option>
+    <option value="Bara">Bara</option>
+    <option value="Parsa">Parsa</option>
+    <option value="Chitwan">Chitwan</option>
+    %{--Gandaki--}%
+    <option value="Gorkha">Gorkha</option>
+    <option value="Lamjung">Lamjung</option>
+    <option value="Tanahun">Tanahun</option>
+    <option value="Tanahun">Tanahun</option>
+    <option value="Syangja">Syangja</option>
+    <option value="Kaski">Kaski</option>
+    <option value="Manag">Manag</option>
+    %{--Dhawalagiri--}%
+    <option value="Mustang">Mustang</option>
+    <option value="Parwat">Parwat</option>
+    <option value="Myagdi">Myagdi</option>
+    <option value="Myagdi">Myagdi</option>
+    <option value="Baglung">Baglung</option>
+    %{--Lumbini--}%
+    <option value="Gulmi">Gulmi</option>
+    <option value="Palpa">Palpa</option>
+    <option value="Nawalparasi">Nawalparasi</option>
+    <option value="Rupandehi">Rupandehi</option>
+    <option value="Arghakhanchi">Arghakhanchi</option>
+    <option value="Kapilvastu">Kapilvastu</option>
+    %{--Rapti--}%
+    <option value="Pyuthan">Pyuthan</option>
+    <option value="Rolpa">Rolpa</option>
+    <option value="Rukum">Rukum</option>
+    <option value="Salyan">Salyan</option>
+    <option value="Dang">Dang</option>
+    %{--Bheri--}%
+    <option value="Bardiya">Bardiya</option>
+    <option value="Surkhet">Surkhet</option>
+    <option value="Dailekh">Dailekh</option>
+    <option value="Banke">Banke</option>
+    <option value="Jajarkot">Jajarkot</option>
+    %{--Karnali--}%
+    <option value="Dolpa">Dolpa</option>
+    <option value="Humla">Humla</option>
+    <option value="Kalikot">Kalikot</option>
+    <option value="Mugu">Mugu</option>
+    <option value="Jumla">Jumla</option>
+    %{--Seti--}%
+    <option value="Bajura">Bajura</option>
+    <option value="Bajhang">Bajhang</option>
+    <option value="Achham">Achham</option>
+    <option value="Doti">Doti</option>
+    <option value="Kailali">Kailali</option>
+    %{--Mahakali--}%
+    <option value="Kanchanpur">Kanchanpur</option>
+    <option value="Dadeldhura">Dadeldhura</option>
+    <option value="Baitadi">Baitadi</option>
+    <option value="Darchula">Darchula</option>
+</select>
+<br>  <br>  <br><br>
+
+<!--End Birth Place-->
+
+<!--Address Start-->
+Permanent Address:<br>
+<textarea cols="80" rows="5" placeholder="permanent address" value="permanent address" required> </textarea>
+<br>
+Current Address:<br>
+<textarea cols="80" rows="5" placeholder="current address" value="current address" required> </textarea>
+<br>
+<label>Phone:</label>
+<input type="number" id="phone" name="phone" required>
+<label>Telephone:</label>
+<input type="number" id="tel" name="tel">
+<label>Email Address</label>
+<input type="email" id="email" name="email" required>
+<br>
+<!--End Address-->
+
+<!--Parent Information Start-->
+<label>Father Name:</label>
+<input type="text" placeholder="father name" required>
+<label>Father Occupation:</label>
+<input type="text" placeholder="father occupation" required>
+<label>Father Phone:</label>
+<input type="number" placeholder="father Phone" required>
+<br>
+<label>Mother Name:</label>
+<input type="text" placeholder="Mother name" required>
+<label>Mother Occupation:</label>
+<input type="text" placeholder="Mother occupation" required>
+<label>Mother Phone:</label>
+<input type="number" placeholder="Mother Phone" required>
+<br>
+
+<!--End Parent Information-->
+    <hr>
+
+<!---------- Academic Record Start----------------------->
+
+    <h2>Previous Academic Record</h2>
+<tr>
+   
+  <td>
+  <table>
+   
+  <tr>
+  <td align="center"><b>Sl.No.</b></td>
+  <td align="center"><b>Examination</b></td>
+  <td align="center"><b>Board</b></td>
+  <td align="center"><b>Percentage</b></td>
+  <td align="center"><b>Year of Passing</b></td>
+  </tr>
+   
+  <tr>
+  <td>1</td>
+  <td>SLC/SEE or Equivalent</td>
+  <td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+  <td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+  <td><input type="text" name="ClassX_YrOfPassing" maxlength="30" /></td>
+  </tr>
+   
+  <tr>
+  <td>2</td>
+  <td>+2 or Equivalent </td>
+  <td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+  <td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+  <td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+  </tr>
+   
+  <tr>
+  <td>3</td>
+  <td>Bachelor</td>
+  <td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+  <td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+  <td><input type="text" name="Graduation_YrOfPassing" maxlength="30" /></td>
+  </tr>
+   
+  <tr>
+  <td>4</td>
+  <td>Masters</td>
+  <td><input type="text" name="Masters_Board" maxlength="30" /></td>
+  <td><input type="text" name="Masters_Percentage" maxlength="30" /></td>
+  <td><input type="text" name="Masters_YrOfPassing" maxlength="30" /></td>
+  </tr>
+   
+  <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align="center">(upto 2 decimal)</td>
+  </tr>
+  </table>
+   
+  </td>
+  </tr>
+   <!---------- Academic Record End----------------------->
+
+    <hr>
+<!--Application Information-->
+    <h2>Application Information</h2>
+    <label>   
+      Application Type:
+      </label> 
+      <input type="radio" value="Male" name="application-type" > Provisional
+      <input type="radio" value="Female" name="application-type"> Non-Provisional
+      <br><br><br>
+      <label> 
+        Applied Program:
+</label>
+      <input type="radio" value="BBA-I" name="application-program" > BBA(Honor/Emphasis)
+      <input type="radio" value="BBA-II" name="application-program" > BBA
+      <input type="radio" value="BBIS" name="application-program"> BBIS
+      <input type="radio" value="MBA" name="application-program"> MBA
+      <input type="radio" value="MPhil" name="application-program"> MPhil
+<br>
+<br>
+<hr>
+<!--Button-->
+  
+<button type="submit" class="submitbtn">Submit Appication Form</button>
+<!--Button-->
+
+  </form>
+  
+</body>
+</div>
+ <center><footer>Created By: Rishav Dhungel | Roll :08</footer></center>
+</html>

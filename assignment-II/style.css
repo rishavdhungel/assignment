@@ -1,0 +1,75 @@
+body{  
+  font-family: 'Times New Roman', Times, serif Helvetica, sans-serif;  
+  background-color: #4158D0;
+
+
+}
+
+.container {  
+    padding: 80px;  
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+    
+}
+input{
+  padding: 6px 10px;  
+  margin: 5px 5px;
+}
+.submitbtn {  
+  background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+  font-size: large;
+}  
+.submitbtn:hover {  
+  opacity: 1;  
+}
+
+input[type=text], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border : 1px solid #c00;
+  background: #ffffff; 
+ 
+  
+} 
+input[type="text"]::placeholder {  
+                  
+  padding-left: 20px;
+  font-size: large; 
+} 
+option{
+  padding-left: 20px;
+  font-size: large; 
+}
+
+input[type=text]:focus:focus {  
+  background-color : rgb(211, 172, 172);
+  color : #fff;  outline: none;  
+} 
+hr {  
+  border: 3px solid #f1f1f1;  
+  margin-bottom: 25px;  
+} 
+h2{
+  text-decoration:underline;
+}
+label{
+  font-size: large;
+}
+footer{
+  font-size: large;
+  color: white;
+  margin: 5px 5px;
+  padding: 3px 3px;
+}
