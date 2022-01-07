@@ -1,0 +1,20 @@
+{% extends 'basic.html' %}
+
+{% block title %} Login Page {% endblock %}
+{% block login %} active {% endblock %}
+
+{% block css %}
+{% endblock %}
+{% block body %}
+<form action="/login/" method="POST"> {% csrf_token %}
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+{%load static%}
+<link rel="stylesheet" type="text/css" href="{% static '/login.css'%}">
+<div class="login-block">
+    <h1>Login</h1>
+    <input type="text" value="" placeholder="Username" id="username"  name="username"/>
+    <input type="password" value="" placeholder="Password" id="password" name="password" />
+    <button>Submit</button>
+</div>
+</form>
+{% endblock %}

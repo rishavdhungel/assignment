@@ -1,0 +1,26 @@
+{% extends 'basic.html' %}
+
+{% block title %} Registeration Page {% endblock %}
+{% block register %} active {% endblock %}
+
+{% block css %}
+{% endblock %}
+{% block body %}
+<form action="/register/" method="POST"> {% csrf_token %}
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+{%load static%}
+<link rel="stylesheet" type="text/css" href="{% static '/login.css'%}">
+<div class="login-block">
+    <h1>Register</h1>
+    <input type="text" value="" placeholder="Username" id="username"  name="username"/>
+    <input type="text" value="" placeholder="First Name" id="username"  name="first_name"/>
+    <input type="text" value="" placeholder="Last Name" id="username"  name="last_name"/>
+    <input type="email" value="" placeholder="Email" id="username"  name="email"/>
+    <input type="text" value="" placeholder="Username" id="username"  name="username"/>
+    <input type="password" value="" placeholder="Password" id="password" name="password1" />
+    <input type="password" value="" placeholder="Confirm Password" id="password" name="password2" />
+    <button>Submit</button>
+</div>
+
+</form>
+{% endblock %}

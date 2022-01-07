@@ -1,0 +1,30 @@
+Assignment : Create a marketing application
+    • Create a database table “Contacts” with the columns cid, name, email
+    • Create a csv or text file to put the sample contacts seprated by the contacts like below
+    (contacts.csv)
+    1, Ram Hari, ram@gmail.com
+    2, Shyam, shyam@gmail.com
+    3, sita, sita@gmail.com
+    4, gita, gita@gmail.com
+
+• Write a program in java (import.java) to
+    ◦ Read the csv file
+    ◦ Insert the data of the csv file into the database table
+    ◦ Show all the saved data
+
+• Write a java program (marketing.java) to send a email using to all the contacts of the
+database with following marketing contents
+    Dear Ram Hari,
+    We are going to launch the new Outlet @ New Road.
+    Please visit in the opening date and grab the heavy
+    discounts upto 80%.
+    Thank you,
+    ABC Outlet
+
+
+Assignment : Web Programming
+    • Configure the Tomcat server to run the web applications
+    • Write a Servlet program (ContactServlet.java) to show the details of the Contacts table
+    designed in the previous assignment in HTML page
+    • Rewrite a ContactServlet.java program into ContactSearch.jsp page to search the
+    contacts using name
