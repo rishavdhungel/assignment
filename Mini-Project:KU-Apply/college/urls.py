@@ -9,12 +9,10 @@ urlpatterns = [
     path("application_form/", views.application_form, name="application_forms"),
     path("edit_application/", views.edit_application, name="edit_application"),
     path("status/", views.status, name="status"),
-
     path("register/", views.register, name="register"),
     path("login/", views.loggedin, name="login"),
     path("logout/", views.loggedout, name="logout"),
-
-    path("handle_admin/", views.handle_admin, name="handle_admin"),
+    path("admin_dashboard/", views.handle_admin, name="handle_admin"),
     path("users/", views.users, name="users"),
     path("student_application/<int:myid>/", views.student_application, name="student_application"),
     path("application_status/<int:pk>/", UpdatePostView.as_view(), name="application_status"),

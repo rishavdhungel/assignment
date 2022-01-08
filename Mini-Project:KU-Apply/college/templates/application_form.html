@@ -87,7 +87,7 @@
                             <label>SLC Percentage/CGPA :</label>
                         </div>
                         <div class="col-md-6">
-                            <p>{{user.application.ssc_percentage}}</p>
+                            <p>{{user.application.SLC_percentage}}</p>
                         </div>
                     </div>
                     <div class="row">
@@ -95,7 +95,7 @@
                             <label>SLC/SEE Marksheet :</label>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="{{user.application.ssc_marksheet.url}}">View SLC/SEE Marksheet</a></p>
+                            <p><a href="{{user.application.SLC_marksheet.url}}">View SLC/SEE Marksheet</a></p>
                         </div>
                     </div>
                     <div class="row">
@@ -103,7 +103,7 @@
                             <label>SLC/SEE Passing Certificate :</label>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="{{user.application.ssc_passing_certificate.url}}"> View SSC Passing Certificate</a></p>
+                            <p><a href="{{user.application.SLC_passing_certificate.url}}"> View SLC Passing Certificate</a></p>
                         </div>
                     </div>
                     {% if user.application.phone_no %}
@@ -112,7 +112,7 @@
                             <label>SLC/SEE Character Certificate :</label>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="{{user.application.ssc_leaving_certificate.url}}">View SLC/SEE Character Certificate</a></p>
+                            <p><a href="{{user.application.SLC_leaving_certificate.url}}">View SLC/SEE Character Certificate</a></p>
                         </div>
                     </div>
                     {% endif %}
@@ -139,7 +139,7 @@
                             <label>High School(+2) Percentage :</label>
                         </div>
                         <div class="col-md-6">
-                            <p>{{user.application.hsc_percentage}}%</p>
+                            <p>{{user.application.high_percentage}}</p>
                         </div>
                     </div>
                     <div class="row">
@@ -147,7 +147,7 @@
                             <label>High School(+2) Marksheet :</label>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="{{user.application.hsc_marksheet.url}}">View High School(+2) Marksheet</a></p>
+                            <p><a href="{{user.application.high_marksheet.url}}">View High School(+2) Marksheet</a></p>
                         </div>
                     </div>
                     <div class="row">
@@ -155,7 +155,7 @@
                             <label>High School(+2) Passing Certificate :</label>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="{{user.application.hsc_passing_certificate.url}}">High School(+2) Transcript</a></p>
+                            <p><a href="{{user.application.high_passing_certificate.url}}">High School(+2) Transcript</a></p>
                         </div>
                     </div>
                     {% if user.application.phone_no %}
@@ -164,7 +164,7 @@
                             <label>High School(+2) Migration Certificate :</label>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="{{user.application.hsc_leaving_certificate.url}}">High School(+2) Migration Certificate</a></p>
+                            <p><a href="{{user.application.high_leaving_certificate.url}}">High School(+2) Migration Certificate</a></p>
                         </div>
                     </div>
                     {% endif %}
@@ -174,13 +174,13 @@
 </div>
 <hr>
 <hr>
-<h4>Click here to edit the application</h4><a href="/edit_application/" class="btn btn-secondary" style="width: 20rem;">Edit Application</a>
+<h4>Click here to edit the application</h4><a href="/edit_application/" class="btn btn-secondary" style="width:100%; height: auto;background-color: rgb(235, 101, 101);">Edit Application</a>
 <br><br>
 {% else %}
 <div class="container mt-4">
     <form method="POST" enctype="multipart/form-data"> {% csrf_token %}
     {{form.as_p}}
-    <button type="submit" class="btn btn-primary">Submit</button>
+     <button type="submit"  style="width:100%; height: auto;background-color: rgb(235, 101, 101);">Submit</button>
     </form>
 </div>
 {% endif %}

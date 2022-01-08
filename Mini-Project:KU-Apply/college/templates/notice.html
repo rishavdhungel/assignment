@@ -6,9 +6,15 @@
 {% block css %}
 {% endblock %}
 {% block body %}
-<div class="container mt-2">
+<style>
+ #box{
+     width:100%;
+     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+</style>
+<div class="container mt-2" id="box">
 {% for i in details %}
-<h6 style="margin-top: 2rem;">{{forloop.counter}}] {{i.notice}}</h6>
+<h6 style="margin-top: 2rem; padding: 30px;">{{forloop.counter}}] {{i.notice}}</h6>
 {% endfor %}
 </div>
 {% endblock %}

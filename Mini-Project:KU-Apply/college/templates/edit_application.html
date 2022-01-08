@@ -7,8 +7,9 @@
 <form action="/edit_application/" enctype="multipart/form-data" method="POST"> {% csrf_token %}
     <div class="container mt-3">
    {{ form.as_p }}
-        <button type="submit" class="btn btn-primary">Update</button>
+        <button type="submit" class="btn btn-primary" style="width: 100%; height: auto;background-color: rgb(226, 93, 93); ">Update</button>
     </div>
+    <br>
 </form>
 {% endblock %}
 {% block js %}
