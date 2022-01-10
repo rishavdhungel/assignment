@@ -10,9 +10,8 @@
             <hr>
         <div class="col-md-4">
             <div class="profile-img">
-                {% if user.application.student_profile.url %}
                 <img src="{{application.student_profile.url}}" alt="" width="310px" height="270px">
-                {% endif %}
+                
             </div>
         </div>
         <div class="col-md-8">
@@ -43,7 +42,7 @@
                             <p>{{application.email}}</p>
                         </div>
                     </div>
-                    {% if user.application.phone_no %}
+                    {% if application.phone_no %}
                     <div class="row">
                         <div class="col-md-6">
                             <label>Phone Number :</label>
@@ -66,9 +65,16 @@
         </div>
 </div>
 <hr>
+
+<h2>Voucher Details: </h2>
+<p><a href="{{application.voucher.url}}"> View attached voucher </a></p>
+<hr>
+
+<hr>
 <div class="container mt-4">
     <div class="row">
-        <h1 style="text-align: center;">Educational Details</h1>
+        <h1 style="text-align: center; width:100%;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">Educational Details</h1>
             <hr>
         <div class="col-md-4">
             <div class="profile-img">
@@ -81,39 +87,35 @@
                     <br><br>
                     <div class="row">
                         <div class="col-md-6">
-                            <label>SLC Percentage/CGPA</label>
+                            <label>SLC Percentage/CGPA :</label>
                         </div>
                         <div class="col-md-6">
-                            <p>{{application.ssc_percentage}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label>SLC/SEE Marksheet :
-                            </label>
-                        </div>
-                        <div class="col-md-6">
-                            <p><a href="{{application.ssc_marksheet.url}}">View SLC/SEE Marksheet</a></p>
+                            <p>{{application.SLC_percentage}}</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <label>SLC/SEE Passing Certificate :
-                                Certificate :</label>
+                            <label>SLC/SEE Marksheet :</label>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="{{application.ssc_passing_certificate.url}}"> View SLC/SEE Passing Certificate :</a></p>
+                            <p><a href="{{application.SLC_marksheet.url}}">View SLC/SEE Marksheet</a></p>
                         </div>
                     </div>
-                    {% if user.application.phone_no %}
                     <div class="row">
                         <div class="col-md-6">
-                            <label>SLC/SEE Character Certificate :
-label>
+                            <label>SLC/SEE Passing Certificate :</label>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="{{application.ssc_leaving_certificate.url}}">View SLC/SEE Character Certificate :</a>
-a></p>
+                            <p><a href="{{application.SLC_passing_certificate.url}}"> View SLC Passing Certificate</a></p>
+                        </div>
+                    </div>
+                    {% if application.phone_no %}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>SLC/SEE Character Certificate :</label>
+                        </div>
+                        <div class="col-md-6">
+                            <p><a href="{{application.SLC_leaving_certificate.url}}">View SLC/SEE Character Certificate</a></p>
                         </div>
                     </div>
                     {% endif %}
@@ -122,12 +124,13 @@ a></p>
         </div>
 </div>
 <hr>
+<hr>
 
 <div class="container mt-4">
     <div class="row">
         <div class="col-md-4">
             <div class="profile-img">
-                <h3>High School of Details</h3>
+                <h3>High School (+2)</h3>
             </div>
         </div>
         <div class="col-md-8">
@@ -136,11 +139,10 @@ a></p>
                     <br><br>
                     <div class="row">
                         <div class="col-md-6">
-                            <label>High School(+2) Percentage/CGPA :
-                            </label>
+                            <label>High School(+2) Percentage :</label>
                         </div>
                         <div class="col-md-6">
-                            <p>{{application.hsc_percentage}}%</p>
+                            <p>{{application.high_percentage}}</p>
                         </div>
                     </div>
                     <div class="row">
@@ -148,25 +150,24 @@ a></p>
                             <label>High School(+2) Marksheet :</label>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="{{application.hsc_marksheet.url}}">View High School(+2) Marksheet :</a></p>
+                            <p><a href="{{application.high_marksheet.url}}">View High School(+2) Marksheet</a></p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <label>HSC Passing Certificate :</label>
+                            <label>High School(+2) Passing Certificate :</label>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="{{application.hsc_passing_certificate.url}}">View Passing Certificate: </a></p>
+                            <p><a href="{{application.high_passing_certificate.url}}">High School(+2) Transcript</a></p>
                         </div>
                     </div>
-                    {% if user.application.phone_no %}
+                    {% if application.phone_no %}
                     <div class="row">
                         <div class="col-md-6">
                             <label>High School(+2) Migration Certificate :</label>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="{{application.hsc_leaving_certificate.url}}">View High School(+2) Migration Certificate :
-</a></p>
+                            <p><a href="{{application.high_leaving_certificate.url}}">High School(+2) Migration Certificate</a></p>
                         </div>
                     </div>
                     {% endif %}
@@ -175,7 +176,7 @@ a></p>
         </div>
 </div>
 <hr>
-
 <hr>
-<h4>Click here to edit the status</h4><a href="/application_status/{{application.id}}/" class="btn btn-secondary" style="width: 20rem;">Edit Status</a>
+<hr>
+<h4>Click here to edit the status</h4><a href="/application_status/{{application.id}}/" class="btn btn-secondary"style="width:100%; height: 50px;background-color: rgb(235, 101, 101);">Edit Status</a>
 {% endblock %}
