@@ -33,6 +33,7 @@
             <ul class="navbar-nav me-auto mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link {% block home %} {% endblock %}" aria-current="page" href="/"><i class="fa fa-home"></i> Home</a>
+                
               </li>
               &nbsp;&nbsp;&nbsp;
               {% if user.is_authenticated %}
@@ -53,7 +54,7 @@
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
                   {% if user.is_superuser %}
-                  <li><a class="dropdown-item" href="/handle_admin/">Admin</a></li>
+                  <li><a class="dropdown-item" href="/admin_dashboard/">Admin</a></li>
                   {% endif %}
                   <li><a class="dropdown-item" href="/logout/">Logout</a></li>
                 </ul>
@@ -67,6 +68,9 @@
           <li class="nav-item">
             <a class="nav-link  {% block login %} {% endblock %}" href="/login/"><i class="fa fa-sign-in-alt"></i> Login</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link  {% block contact %} {% endblock %}" href="/contact/"><i class="fa fa-address-book"></i> Contact</a>
+          </li>
           {% endif %}
         </div>
       </nav>
@@ -76,6 +80,28 @@
     {% block body %}
     {% endblock %}
   </body>
+  
   {% block js %}
   {% endblock %}
+  <style>
+    .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(196, 107, 107);
+  color: white;
+  text-align: center;
+  
+}
+
+a{
+
+text-decoration:underline;
+  color:rgb(0, 0, 0);
+}
+  </style>
+  <div class="footer">
+    <p>KU-Apply | <a style="color:white;" href='https://rishavdhungel.com.np' >Developed By: Rishav Dhungel</a></p>
+  </div>
 </html>

@@ -11,13 +11,54 @@
     width:100%;
      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
+  .l {
+        margin-top: 20px;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        width: 100%;
+        animation: gradient 15s ease infinite;
+        bottom: 5px;
+        padding: 60px;
+        text-align: center;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+ .button {
+        background-color: dodgerblue;
+        color: white;
+        padding: 12px;
+        font-size: 18px;
+        border: 1px solid dodgerblue;
+        border-radius: 4px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+body {
+  
+  font-family: roboto;
+}
 </style>
 {% if request.user.is_authenticated %}
 
 {% else %}
 <div class="container mt-3">
-  <div class="alert alert-danger" role="alert">
-    <h5>Login to fill the application form</h5>
+  <div style class="alert alert-info" role="alert">
+    <center><h5>====Login to fill the application form====</h5></center>
   </div>
 </div>
 {% endif %}
@@ -34,6 +75,11 @@
     </div>
 
     {% endfor %}
+
+    <div class="l">
+      <h1 class="text-light" style="font-size: 40px;">About KU-Apply</h1>
+      <p style="font-size: 20px; color: white;">KU-Apply is the application portal for the students that are applying for BBIS and BBA program under School of Management. The feature will be available  to other school of Kathmandu University very soon
+      </p><br>
   </div>
   </div>
 {% endblock %}

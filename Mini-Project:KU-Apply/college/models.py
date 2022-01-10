@@ -22,6 +22,8 @@ class Application(models.Model):
     phone_no = models.CharField(max_length=200) 
     address = models.TextField(max_length=200) 
     student_profile = models.ImageField(upload_to="images") 
+    voucher = models.ImageField(upload_to="images", null=True) 
+    SLC_passing_certificate = models.ImageField(upload_to="images", null=True)
     SLC_percentage = models.DecimalField(max_digits=4, decimal_places=2, null=True)
     SLC_marksheet = models.ImageField(upload_to="images", null=True)
     SLC_passing_certificate = models.ImageField(upload_to="images", null=True)

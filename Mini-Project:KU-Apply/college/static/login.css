@@ -78,3 +78,18 @@ body {
 .login-block button:hover {
     background: #ff7b81;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: brown;
+    color: white;
+    text-align: center;
+ }
+
+ a{
+	text-decoration:underline;
+    color:white;
+}

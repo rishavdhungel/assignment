@@ -101,6 +101,8 @@ def loggedout(request):
     messages.success(request, "Successfully logged out")
     return redirect('/login')
 
+def contact(request):
+    return render(request,'contact.html')
 
 def handle_admin(request):
     if not request.user.is_superuser:
