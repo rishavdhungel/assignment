@@ -7,7 +7,7 @@
     <style>
         h1{
             text-align: center;
-            color: #094a89;
+            color: #03080c;
         }
         table{
             border-collapse: collapse;
@@ -16,7 +16,7 @@
             font-size: 20px;
         }
         th{
-            background-color: #094a89;
+            background-color: #db3466;
             color: white;
         }
         th, td{
@@ -40,7 +40,7 @@
                 <td>{{i.user}}</td>
                 <td>{{i.name}}</td>
                 <td>{{i.email}}</td>
-                <td><a href="/student_application/{{i.id}}/" class="btn btn-warning">View Application</a></td>
+                <td><a href="/student_application/{{i.id}}/" class="btn btn-danger">View Application</a></td>
             </tr>
             {% endfor %}
         </tbody>
