@@ -12,13 +12,11 @@ public class UDPServer {
             // check for connection
             DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length) ;
             serverSocket.receive(receivePacket);
+            
             // get address and port
             InetAddress clientAddress = receivePacket.getAddress();
             int clientPort = receivePacket.getPort(); 
-            System.out.println("connected from "+ clientAddress.getHostAddress());
-            // read data
-            String receivedData = new String(receivePacket.getData());
-            System.out.println("Received from Client = "+ receivedData);
+        
             
             // send data
             String toSendData = "Hello from Server";
