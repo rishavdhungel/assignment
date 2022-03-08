@@ -1,0 +1,330 @@
+08-Mar-2022 16:29:07.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.14
+08-Mar-2022 16:29:07.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2021 22:01:36 UTC
+08-Mar-2022 16:29:07.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.14.0
+08-Mar-2022 16:29:07.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Mar-2022 16:29:07.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.16.0-kali1-amd64
+08-Mar-2022 16:29:07.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Mar-2022 16:29:07.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+08-Mar-2022 16:29:07.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.2+8-Debian-1
+08-Mar-2022 16:29:07.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Debian
+08-Mar-2022 16:29:07.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat
+08-Mar-2022 16:29:07.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat
+08-Mar-2022 16:29:08.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Mar-2022 16:29:08.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Mar-2022 16:29:08.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Mar-2022 16:29:08.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Mar-2022 16:29:08.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Mar-2022 16:29:08.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/conf/logging.properties
+08-Mar-2022 16:29:08.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Mar-2022 16:29:08.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Mar-2022 16:29:08.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Mar-2022 16:29:08.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Mar-2022 16:29:08.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Mar-2022 16:29:08.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat
+08-Mar-2022 16:29:08.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat
+08-Mar-2022 16:29:08.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/temp
+08-Mar-2022 16:29:08.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dawt.useSystemAAFontSettings=on
+08-Mar-2022 16:29:08.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dswing.aatext=true
+08-Mar-2022 16:29:08.010 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+08-Mar-2022 16:29:08.291 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Mar-2022 16:29:08.325 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [471] milliseconds
+08-Mar-2022 16:29:08.403 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Mar-2022 16:29:08.404 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.14]
+08-Mar-2022 16:29:08.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/Demo]
+08-Mar-2022 16:29:08.582 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [1] column [1]
+	org.xml.sax.SAXParseException; systemId: file:/home/rishav/Documents/assignment/APT%20ExamCapsule/ServerProgramming/tomcat/webapps/Demo/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1277)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5084)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1188)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2023)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1098)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:480)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Mar-2022 16:29:08.584 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/home/rishav/Documents/assignment/APT%20ExamCapsule/ServerProgramming/tomcat/webapps/Demo/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/home/rishav/Documents/assignment/APT%20ExamCapsule/ServerProgramming/tomcat/webapps/Demo/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1277)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5084)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1188)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:2023)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1098)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:480)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Mar-2022 16:29:08.585 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [1] column [1]
+08-Mar-2022 16:29:08.601 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+08-Mar-2022 16:29:08.606 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+08-Mar-2022 16:29:08.629 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/Demo] startup failed due to previous errors
+08-Mar-2022 16:29:08.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/Demo] has finished in [212] ms
+08-Mar-2022 16:29:08.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/docs]
+08-Mar-2022 16:29:08.740 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:29:08.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/docs] has finished in [139] ms
+08-Mar-2022 16:29:08.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/ROOT]
+08-Mar-2022 16:29:08.832 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:29:08.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/ROOT] has finished in [57] ms
+08-Mar-2022 16:29:08.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/manager]
+08-Mar-2022 16:29:08.914 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:29:08.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/manager] has finished in [88] ms
+08-Mar-2022 16:29:08.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/examples]
+08-Mar-2022 16:29:09.177 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:29:09.209 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/examples] has finished in [285] ms
+08-Mar-2022 16:29:09.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/contact_servlet]
+08-Mar-2022 16:29:09.264 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:29:09.266 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/contact_servlet] has finished in [55] ms
+08-Mar-2022 16:29:09.266 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/host-manager]
+08-Mar-2022 16:29:09.306 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:29:09.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/host-manager] has finished in [42] ms
+08-Mar-2022 16:29:09.310 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Mar-2022 16:29:09.318 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [992] milliseconds
+08-Mar-2022 16:30:39.346 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Demo]
+08-Mar-2022 16:30:39.402 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:30:49.413 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Demo]
+08-Mar-2022 16:30:49.414 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Demo] has started
+08-Mar-2022 16:30:49.485 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:30:49.487 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Demo] is completed
+08-Mar-2022 16:31:19.498 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Demo]
+08-Mar-2022 16:31:19.499 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Demo] has started
+08-Mar-2022 16:31:19.534 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:31:19.535 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Demo] is completed
+08-Mar-2022 16:31:39.543 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Demo]
+08-Mar-2022 16:31:39.543 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Demo] has started
+08-Mar-2022 16:31:39.594 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:31:39.595 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Demo] is completed
+08-Mar-2022 16:31:59.601 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Demo]
+08-Mar-2022 16:31:59.602 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Demo] has started
+08-Mar-2022 16:31:59.635 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:31:59.637 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Demo] is completed
+08-Mar-2022 16:32:19.162 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Mar-2022 16:32:19.162 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Mar-2022 16:32:19.164 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Mar-2022 16:32:19.180 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Mar-2022 16:32:19.195 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Mar-2022 16:32:20.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.14
+08-Mar-2022 16:32:20.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2021 22:01:36 UTC
+08-Mar-2022 16:32:20.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.14.0
+08-Mar-2022 16:32:20.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Mar-2022 16:32:20.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.16.0-kali1-amd64
+08-Mar-2022 16:32:20.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Mar-2022 16:32:20.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+08-Mar-2022 16:32:20.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.2+8-Debian-1
+08-Mar-2022 16:32:20.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Debian
+08-Mar-2022 16:32:20.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat
+08-Mar-2022 16:32:20.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat
+08-Mar-2022 16:32:20.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Mar-2022 16:32:20.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Mar-2022 16:32:20.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Mar-2022 16:32:20.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Mar-2022 16:32:20.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Mar-2022 16:32:20.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/conf/logging.properties
+08-Mar-2022 16:32:20.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Mar-2022 16:32:20.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Mar-2022 16:32:20.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Mar-2022 16:32:20.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Mar-2022 16:32:20.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Mar-2022 16:32:20.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat
+08-Mar-2022 16:32:20.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat
+08-Mar-2022 16:32:20.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/temp
+08-Mar-2022 16:32:20.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dawt.useSystemAAFontSettings=on
+08-Mar-2022 16:32:20.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dswing.aatext=true
+08-Mar-2022 16:32:20.854 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+08-Mar-2022 16:32:21.144 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Mar-2022 16:32:21.170 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [474] milliseconds
+08-Mar-2022 16:32:21.215 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Mar-2022 16:32:21.216 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.14]
+08-Mar-2022 16:32:21.227 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/Demo]
+08-Mar-2022 16:32:21.496 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:32:21.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/Demo] has finished in [329] ms
+08-Mar-2022 16:32:21.557 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/docs]
+08-Mar-2022 16:32:21.611 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:32:21.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/docs] has finished in [56] ms
+08-Mar-2022 16:32:21.614 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/ROOT]
+08-Mar-2022 16:32:21.677 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:32:21.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/ROOT] has finished in [65] ms
+08-Mar-2022 16:32:21.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/manager]
+08-Mar-2022 16:32:21.748 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:32:21.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/manager] has finished in [74] ms
+08-Mar-2022 16:32:21.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/examples]
+08-Mar-2022 16:32:22.015 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:32:22.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/examples] has finished in [343] ms
+08-Mar-2022 16:32:22.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/contact_servlet]
+08-Mar-2022 16:32:22.186 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:32:22.190 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/contact_servlet] has finished in [90] ms
+08-Mar-2022 16:32:22.190 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/host-manager]
+08-Mar-2022 16:32:22.259 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:32:22.266 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/host-manager] has finished in [76] ms
+08-Mar-2022 16:32:22.272 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Mar-2022 16:32:22.295 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1124] milliseconds
+08-Mar-2022 16:32:42.280 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Demo]
+08-Mar-2022 16:32:42.281 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Demo] has started
+08-Mar-2022 16:32:42.337 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:32:42.339 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Demo] is completed
+08-Mar-2022 16:32:52.343 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Demo]
+08-Mar-2022 16:32:52.343 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Demo] has started
+08-Mar-2022 16:32:52.383 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:32:52.385 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Demo] is completed
+08-Mar-2022 16:35:32.445 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/contact_servlet]
+08-Mar-2022 16:35:32.445 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/contact_servlet] has started
+08-Mar-2022 16:35:32.506 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 16:35:32.508 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/contact_servlet] is completed
+08-Mar-2022 16:44:20.562 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Mar-2022 16:44:20.562 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Mar-2022 16:44:20.564 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Mar-2022 16:44:20.586 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Mar-2022 16:44:20.597 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Mar-2022 17:07:56.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.14
+08-Mar-2022 17:07:56.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2021 22:01:36 UTC
+08-Mar-2022 17:07:56.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.14.0
+08-Mar-2022 17:07:56.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Mar-2022 17:07:56.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.16.0-kali1-amd64
+08-Mar-2022 17:07:56.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Mar-2022 17:07:56.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+08-Mar-2022 17:07:56.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.2+8-Debian-1
+08-Mar-2022 17:07:56.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Debian
+08-Mar-2022 17:07:56.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat
+08-Mar-2022 17:07:56.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat
+08-Mar-2022 17:07:56.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Mar-2022 17:07:56.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Mar-2022 17:07:56.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Mar-2022 17:07:56.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Mar-2022 17:07:56.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Mar-2022 17:07:56.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/conf/logging.properties
+08-Mar-2022 17:07:56.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Mar-2022 17:07:56.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Mar-2022 17:07:56.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Mar-2022 17:07:56.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Mar-2022 17:07:56.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Mar-2022 17:07:56.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat
+08-Mar-2022 17:07:56.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat
+08-Mar-2022 17:07:56.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/temp
+08-Mar-2022 17:07:56.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dawt.useSystemAAFontSettings=on
+08-Mar-2022 17:07:56.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dswing.aatext=true
+08-Mar-2022 17:07:56.726 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+08-Mar-2022 17:07:56.991 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Mar-2022 17:07:57.021 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [451] milliseconds
+08-Mar-2022 17:07:57.062 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Mar-2022 17:07:57.062 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.14]
+08-Mar-2022 17:07:57.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/Demo]
+08-Mar-2022 17:07:57.317 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 17:07:57.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/Demo] has finished in [307] ms
+08-Mar-2022 17:07:57.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/docs]
+08-Mar-2022 17:07:57.428 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 17:07:57.431 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/docs] has finished in [52] ms
+08-Mar-2022 17:07:57.431 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/ROOT]
+08-Mar-2022 17:07:57.494 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 17:07:57.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/ROOT] has finished in [65] ms
+08-Mar-2022 17:07:57.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/manager]
+08-Mar-2022 17:07:57.558 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 17:07:57.565 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/manager] has finished in [68] ms
+08-Mar-2022 17:07:57.565 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/examples]
+08-Mar-2022 17:07:57.748 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 17:07:57.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/examples] has finished in [217] ms
+08-Mar-2022 17:07:57.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/contact_servlet]
+08-Mar-2022 17:07:57.829 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 17:07:57.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/contact_servlet] has finished in [48] ms
+08-Mar-2022 17:07:57.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/host-manager]
+08-Mar-2022 17:07:57.874 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Mar-2022 17:07:57.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rishav/Documents/assignment/APT ExamCapsule/ServerProgramming/tomcat/webapps/host-manager] has finished in [45] ms
+08-Mar-2022 17:07:57.879 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Mar-2022 17:07:57.890 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [868] milliseconds
