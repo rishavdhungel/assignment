@@ -1,7 +1,8 @@
 import java.awt.Color;
 
-import javax.print.attribute.standard.JobHoldUntil;
-import javax.swing.*;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
 public class Mybuttons {
     public static void main(String[] args){
         //setlayout to null

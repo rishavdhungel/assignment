@@ -1,6 +1,5 @@
-import java.awt.Color;
-
-import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
 public class Myjlabel {
     public static void main(String[] agrs){
     JFrame frame = new JFrame();
